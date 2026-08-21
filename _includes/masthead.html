@@ -4,13 +4,17 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a data-language-section="home" href="#about-me-en">Homepage</a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a data-language-section="{{ forloop.index0 }}" href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <div class="language-switch" aria-label="Language selector">
+        <button type="button" data-language-choice="en" aria-pressed="true">EN</button>
+        <button type="button" data-language-choice="zh" aria-pressed="false">中文</button>
+      </div>
     </div>
   </div>
 </div>

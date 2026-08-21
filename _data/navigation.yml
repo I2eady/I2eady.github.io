@@ -1,22 +1,22 @@
 # main links links
 main:
   - title: "About Me"
-    url: "/#about-me"
+    url: "/#about-me-en"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#-news-en"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#-publications-en"
 
   - title: "Selected Projects"
-    url: "/#-selected-projects"
+    url: "/#-selected-projects-en"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "/#-honors-and-awards-en"
 
   - title: "Educations"
-    url: "/#-educations"
+    url: "/#-educations-en"
 
   - title: "Technical Skills"
-    url: "/#-technical-skills"
+    url: "/#-technical-skills-en"
