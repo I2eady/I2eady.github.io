@@ -117,9 +117,14 @@ h1:before, .anchor:before {
     font-size: .8em;
 
     button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 3.1em;
+        height: 2em;
         border: 0;
         border-radius: 3px;
-        padding: .25em .45em;
+        padding: 0;
         color: #555;
         background: transparent;
         cursor: pointer;

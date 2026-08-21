@@ -87,7 +87,7 @@ I enjoy building intelligent systems that can perceive, reason, and act in the p
 - **Languages:** CET-4 531; CET-6 508; able to read technical literature and communicate in English.
 </div>
 
-<div class="language-content lang-zh" markdown="1">
+<div class="language-content lang-zh" markdown="1" hidden>
 
 <span class='anchor' id='about-me-zh'></span>
 

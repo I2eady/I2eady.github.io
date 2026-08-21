@@ -35,6 +35,9 @@
     document.body.dataset.language = selected;
     document.documentElement.lang = selected === "zh" ? "zh-CN" : "en";
     document.title = content.title;
+    document.querySelectorAll(".language-content").forEach((section) => {
+      section.hidden = !section.classList.contains(`lang-${selected}`);
+    });
     setText(".author__name", content.name);
     setText(".author__bio", content.bio);
     setText("#site-description", content.description);
