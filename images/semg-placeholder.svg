@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-label="Abstract surface electromyography waveform">
+  <rect width="800" height="480" fill="#f3f6f7"/>
+  <g stroke="#d8e0e3" stroke-width="2"><path d="M0 120H800M0 240H800M0 360H800"/><path d="M160 0V480M320 0V480M480 0V480M640 0V480"/></g>
+  <path d="M0 244 L34 236 L53 249 L72 213 L89 274 L111 211 L130 250 L160 241 L191 233 L210 260 L227 197 L244 295 L263 180 L286 268 L304 232 L336 242 L363 225 L382 258 L401 169 L423 314 L446 146 L471 285 L490 226 L520 239 L550 251 L569 220 L586 272 L607 195 L625 290 L648 211 L675 251 L700 235 L730 247 L755 229 L800 244" fill="none" stroke="#1e6c78" stroke-width="8" stroke-linejoin="round"/>
+  <text x="48" y="78" fill="#396570" font-family="Arial, sans-serif" font-size="28" letter-spacing="5">sEMG SIGNAL</text>
+</svg>

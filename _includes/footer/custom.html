@@ -1,0 +1,20 @@
+<!-- ===== Visitor logging (silent, private) — nothing is shown to visitors ===== -->
+<script>
+(function () {
+  if (sessionStorage.getItem("v_logged")) return;
+  var FORM = "https://docs.google.com/forms/d/e/1FAIpQLSeScYZ9d3PfnkYuCedSJpTVbGJ781Y5J72AN77f48HAnSO6Gw/formResponse";
+  fetch("https://ipapi.co/json/")
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      sessionStorage.setItem("v_logged", "1");
+      var loc = [d.city, d.region, d.country_name || d.country].filter(Boolean).join(", ");
+      var details = ["ISP: " + (d.org || "?"), "TZ: " + (d.timezone || "?"), "Page: " + location.pathname, "Ref: " + (document.referrer || "direct"), "UA: " + navigator.userAgent].join(" | ");
+      var fd = new FormData();
+      fd.append("entry.869481372", d.ip || "?");
+      fd.append("entry.401128904", loc);
+      fd.append("entry.285215393", details);
+      fetch(FORM, { method: "POST", body: fd, mode: "no-cors" });
+    })
+    .catch(function () {});
+})();
+</script>
