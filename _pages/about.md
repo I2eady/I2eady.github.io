@@ -10,12 +10,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello! I am **Zeran Wang** (王泽然), an undergraduate student in Electronic Information Engineering at **Dalian Maritime University**. My interests lie at the intersection of **embodied intelligence, robotics, and artificial intelligence**.
+Hello! I am **Zeran Wang** (王泽然), an undergraduate student in Electronic Information Engineering at **Dalian Maritime University** and a **CCF Student Member**. My interests lie at the intersection of **embodied intelligence, robotics, and artificial intelligence**.
 
 I enjoy building intelligent systems that can perceive, reason, and act in the physical world. My current work spans embedded systems, FPGA-based vision, robot manipulation, and vision-language-action models for household robotics.
 
 # 🔥 News
 - *2026*: &nbsp;🏆 Received National Second Prizes in the China University Student Computer Design Competition and the New Generation Information and Communication Technology Competition.
+- *2025.11*: &nbsp;💻 Attended the China National Computer Congress (**CNCC 2025**).
 - *2025.12*: &nbsp;🤖 Started **Homebot**, an embodied dual-arm household humanoid robot project, as project lead.
 - *2025.09*: &nbsp;🦾 Started a National Undergraduate Innovation and Entrepreneurship Training Program on a ZYNQ-based gesture-recognition dexterous hand.
 - *2024.09*: &nbsp;🎓 Began my B.Eng. studies in Electronic Information Engineering at Dalian Maritime University.
@@ -65,7 +66,7 @@ I enjoy building intelligent systems that can perceive, reason, and act in the p
 - *2026*, Second Prize, National Undergraduate Internet of Things Design Competition, Provincial/Ministerial Level.
 
 # 📖 Educations
-- *2024.09 – 2028.06 (expected)*, B.Eng. in Electronic Information Engineering, School of Information Science and Technology, **Dalian Maritime University**, Dalian, China. GPA: **3.90/4.00**.
+- *2024.09 – 2028.06 (expected)*, B.Eng. in Electronic Information Engineering, School of Information Science and Technology, **Dalian Maritime University**, Dalian, China. GPA: **3.90/5.00**.
 
 <span class='anchor' id='-technical-skills'></span>
 
